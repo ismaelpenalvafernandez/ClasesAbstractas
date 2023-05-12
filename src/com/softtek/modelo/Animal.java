@@ -1,2 +1,6 @@
-package com.softtek.modelo;public class Animal {
+package com.softtek.modelo;
+
+public abstract class Animal {
+    public abstract void comer();
+    public abstract void moverse();
 }
